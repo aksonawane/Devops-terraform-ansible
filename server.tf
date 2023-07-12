@@ -13,7 +13,7 @@ region = "us-east-1"
 resource "aws_instance" "myawsserver" {
   ami = "ami-0b0dcb5067f052a63"
   instance_type = "t2.micro"
-  key_name = "akash-sg"
+  key_name = "akash-import"
 
   tags = {
     Name = "Akash-DevOps-batch-server"
